@@ -1,6 +1,7 @@
 import DarkModeToggleButton from "./home/dark-mode";
+import Link from "next/link";
 import NavBar from "./NavBar";
-export default function Header() {
+export default function Header({ name }) {
     return (
         <header className="text-gray-600 body-font">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -17,7 +18,11 @@ export default function Header() {
                     >
                         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                     </svg>
-                    <span className="ml-3 text-xl">Header</span>
+                    <Link href="/">
+                        <button>
+                            <span className="ml-3 text-xl">{name}</span>
+                        </button>
+                    </Link>
                 </a>
                 <NavBar />
                 <DarkModeToggleButton />

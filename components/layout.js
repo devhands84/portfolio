@@ -3,9 +3,9 @@ import Footer from "../components/footer";
 export default function Layout({ children }) {
     return (
         <div>
-            <Header />
+            <Header name="Develong's 포트폴리오" />
             {children}
-            <Footer />
+            <Footer description="목록이 더 많아지길..." />
         </div>
     );
 }

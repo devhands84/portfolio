@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Layout from "../components/layout";
 import Body from "../components/home/body";
 import Seo from "../components/Seo";
 export default function Home() {

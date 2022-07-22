@@ -6,9 +6,12 @@ export default function Footer({ description }) {
                 <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                     <span className="ml-3 text-xl">{description}</span>
                 </a>
-                <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-                    © 2022 김휘철
-                </p>
+                <Link href="https://www.flaticon.com/free-icons/web-coding">
+                    <a title="web coding icons">
+                        Web coding icons created by IconBaandar - Flaticon
+                    </a>
+                </Link>
+
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                     <Link href="https://twitter.com/hwikodeo1">
                         <a className="ml-3 text-gray-500">

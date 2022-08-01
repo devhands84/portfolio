@@ -1,5 +1,6 @@
 import { NOTION_TOKEN, NOTION_ID } from "../config";
 import ProjectItem from "../components/projects/project-item";
+import Link from "next/link";
 export default function Project({ projects }) {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 p-12 m-4 gap-8">

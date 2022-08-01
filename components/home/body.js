@@ -8,12 +8,12 @@ export default function Body() {
                     김휘철의 Side Projects
                 </h1>
                 <p className="mb-8 leading-relaxed">
-                    안녕하세요 개발자 김휘철입니다. 여기는 저의 Side projects를
-                    소개하는 곳입니다. 주로 .Net C#, Oracle을 사용해 개발하지만
-                    시간있을때는 Web, Mobile, Unity를 공부합니다. Web은 Vue.js,
-                    Quasar, Firebase, React, Next.js를 사용하여 개발 합니다.
-                    추가로 더 한다하면 Python까지 할 생각입니다. Mobile은 React
-                    native를 사용할 생각이고, 그 다음 Unity로 간단한 2D 게임을
+                    안녕하세요 개발자 김휘철입니다.
+                    <br /> 여기는 저의 Side projects를 소개하는 곳입니다. <br />{" "}
+                    업무는 주로 .Net C#, Oracle을 사용해 개발하지만 시간있을때는
+                    Web, Mobile, Unity를 공부합니다. <br /> Web은 React,
+                    Next.js, Vue.js, Firebase,를 사용하여 개발 합니다. Mobile은
+                    React native를 사용중이고, 그 다음 Unity로 간단한 2D 게임을
                     만들어볼까 합니다.
                 </p>
                 <div className="flex justify-center">

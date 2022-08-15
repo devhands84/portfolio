@@ -13,8 +13,8 @@ export default function Body() {
                     업무는 주로 .Net C#, Oracle을 사용해 개발하지만 시간있을때는
                     Web, Mobile, Unity를 공부합니다. <br /> Web은 React,
                     Next.js, Vue.js, Firebase,를 사용하여 개발 합니다. Mobile은
-                    React native를 사용중이고, 그 다음 Unity로 간단한 2D 게임을
-                    만들어볼까 합니다.
+                    React native를 사용중이고, Unity는 아직 시작하진 않았지만
+                    관심있습니다.
                 </p>
                 <div className="flex justify-center">
                     <Link href="/project">
